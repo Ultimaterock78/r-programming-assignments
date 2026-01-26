@@ -2,7 +2,7 @@
 # Destini Randall
 # LIS4370
 # Repository for R Programming Assignments
-----
+# ---------------------------
 # Module 2 Assignment
 # Blog: https://rprogrammingjournal-destinirandall.blogspot.com/2026/01/mymean-error-and-correction.html
 
@@ -13,4 +13,3 @@
 myMean <- function(assignment2) {
   return(sum(assignment2) / length(assignment2))
 }  
-----
