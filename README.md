@@ -13,3 +13,16 @@
 myMean <- function(assignment2) {
   return(sum(assignment2) / length(assignment2))
 }  
+# ---------------------------
+# Module 3 Assignment
+Name <- c("Jeb", "Donald", "Ted", "Marco", "Carly", "Hillary", "Bernie")
+
+ABC_political_poll_results <- c(4, 62, 51, 21, 2, 14, 15)
+
+CBS_political_poll_results <- c(12, 75, 43, 19, 1, 21, 19) 
+
+election_2016 <- data.frame(Name, ABC_political_poll_results, CBS_political_poll_results)
+
+election_2016
+# ---------------------------
+
