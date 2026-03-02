@@ -72,7 +72,7 @@ D
 # ---------------------------
 # Module 7 Assignment
 
-#S3
+# S3
 produce <- list(name = "Apple", amount = 5, price = 3.45)
 class(produce) <- "produce"
 
@@ -83,7 +83,7 @@ print.produce <- function(object) {
 }
 produce
 
-#S4
+# S4
 setClass("course", slots = list(name = "character", seats = "numeric", start_time = "numeric"))
 
 course <- new("course", name = "Calculus", seats = 45, start_time = 10)
