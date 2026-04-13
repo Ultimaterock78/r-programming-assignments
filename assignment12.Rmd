@@ -1,0 +1,45 @@
+---
+title: "My R Markdown"
+author: "Destini Randall"
+date: "2026-04-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+R Markdown is a file format for writing reproducible documents with R. It is used to embed R code and text into HTML, PDF, Word, and more. 
+
+## Narrative Paragraph
+
+Using R Markdown makes reading code, text, and results much easier. In this assignment I am going to practice integrating paragraphs, LaTeX math, and executable R code chunks into an R markdown file. Then I will knit the document, push it to my GitHub repository, and reflect on my process.
+
+## LaTeX Math Expression
+
+Inline:
+$A = 5x + x^2$
+
+Displayed: 
+$$
+B = 7 + x/2
+$$
+
+## R Code Chunks
+
+```{r}
+data("iris")
+mean(iris$Petal.Length)
+```
+
+```{r}
+library(ggplot2)
+ggplot(iris, aes(x = Petal.Length, y = Petal.Width)) + geom_point()
+```
+
+## Reflection
+
+Using R Markdown compared to writing a plain report was very nice when working with code. Just like word that has formatting rules, there are syntax rules in markdown that I needed to learn. After learning those however, R markdown is clearly more efficient because it lets me code normally and write all at once. If I wanted to provide code in a normal word document it is very hard to format correctly. I also like being able to run the individual code chunks and see their output directly underneath.
+
